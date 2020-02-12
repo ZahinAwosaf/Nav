@@ -21,7 +21,7 @@ nav
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 12vh;
     background-color: #5d4954;
     font-family: 'Montserrat', sans-serif;
 }
