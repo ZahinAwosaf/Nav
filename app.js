@@ -17,18 +17,10 @@ const nav_slide = ()=>
             else
             {
                 link.style.animation = `nav_link_fade 0.5s ease forwards ${index / 7 + 0.5}s`;
-                //console.log(index / 7 + 0.3);
             }    
         });
 
         burger.classList.toggle('toggle');
-
-        nav_links.forEach((link, index) =>
-        {
-            link.style.animation = `nav_link_fade 0.5s ease forwards ${index / 7 + .3}s`;
-            //console.log(index / 7 + 0.3);
-            
-        });
     });   
 }
 
